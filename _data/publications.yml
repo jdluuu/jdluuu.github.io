@@ -7,13 +7,6 @@ main:
     image: ./assets/img/teaser_example.png
     notes: In Preparation
 
-  - title: "CREPES-Multi: A Robust Tightly-Coupled Bearing-Distance-Inertial Relative State Estimation System for Swarm Robots"
-    authors: Zhehan Li, Zheng Wang, <strong>Jiadong Lu</strong>, Zhiren Xun, Chao Xu, Fei Gao, and Yanjun Cao
-    conference_short: TRO
-    conference: IEEE Transactions on Robotics <strong>(TRO)</strong>, 2025.
-    image: ./assets/img/teaser_example.png
-    notes: In Preparation
-
   - title: "Novel Design of Reconfigurable Tracked Robot with Geometry-Changing Tracks"
     authors: Chice Xuan†, <strong>Jiadong Lu†</strong>, Zhihao Tian, Jiacheng Li, Mengke Zhang, Hanbin Xie, Jianxiong Qiu, Chao Xu, and Yanjun Cao
     conference_short: IROS
@@ -24,3 +17,10 @@ main:
     bibtex: https://ieeexplore.ieee.org/abstract/document/10611264
     image: ./assets/img/teaser_example.png
     notes: Oral Presentation
+
+  - title: "CREPES-Multi: A Robust Tightly-Coupled Bearing-Distance-Inertial Relative State Estimation System for Swarm Robots"
+    authors: Zhehan Li, Zheng Wang, <strong>Jiadong Lu</strong>, Zhiren Xun, Chao Xu, Fei Gao, and Yanjun Cao
+    conference_short: TRO
+    conference: IEEE Transactions on Robotics <strong>(TRO)</strong>, 2025.
+    image: ./assets/img/teaser_example.png
+    notes: In Preparation
