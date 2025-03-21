@@ -24,3 +24,10 @@ main:
     conference: IEEE Transactions on Robotics <strong>(TRO)</strong>, 2025.
     image: ./assets/img/teaser_example.png
     notes: In Preparation
+    
+  - title: "Mr. Virgil: Learning Multi-robot Visual-range Relative Localization  "
+    authors: Si Wang, Zhehan Li, <strong>Jiadong Lu</strong>, Rong Xiong, Yanjun Cao, Yue Wang
+    conference_short: IROS
+    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2025.
+    image: ./assets/img/teaser_example.png
+    notes: Submitted
