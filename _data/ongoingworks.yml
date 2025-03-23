@@ -1,0 +1,15 @@
+main:
+
+  - title: "CT-RIO: Non-Uniform B-spline based Continuous-Time Relative Inertial Odometry"
+    authors: <strong>Jiadong Lu†</strong>, Zhehan Li†, Tao Han, Chao Xu, Fei Gao, and Yanjun Cao
+    conference_short: RAL
+    conference: IEEE Robotics and Automation Letters <strong>(RAL)</strong>, 2025.
+    image: ./assets/img/teaser_example.png
+    notes: In Preparation
+
+  - title: "CREPES-Multi: A Robust Tightly-Coupled Bearing-Distance-Inertial Relative State Estimation System for Swarm Robots"
+    authors: Zhehan Li, Zheng Wang, <strong>Jiadong Lu</strong>, Zhiren Xun, Chao Xu, Fei Gao, and Yanjun Cao
+    conference_short: TRO
+    conference: IEEE Transactions on Robotics <strong>(TRO)</strong>, 2025.
+    image: ./assets/img/teaser_example.png
+    notes: In Preparation

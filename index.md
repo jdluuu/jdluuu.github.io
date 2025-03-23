@@ -8,7 +8,7 @@ Hi! I am currently pursuing a master's degree in the [FastLab](http://zju-fast.c
 
 Previously, I obtained a bachelor's degree in Automation from Shandong University with the honor of Excellent graduation thesis (top 2%).
 
-I am deeply fascinated by robotics's future and committed to advancing research in this field. If you're interested in discussing my work or potential collaborations, feel free to email me at jdluuu@outlook.com
+I am deeply fascinated by robotics's future and committed to advancing research in this field. If you're interested in discussing my work or potential collaborations, feel free to email me at jdlu@zju.edu.cn
 
 ## Research Interests
 <!-- 
@@ -19,8 +19,12 @@ My research interests include multi-robot collaboration and relative localizatio
 
 ## News
 
+- **[Jan. 2025]** Our paper about learning-based relative localization is accepted to IROS 2025.
 - **[Jul. 2024]** Our paper about reconfigurable tracked robot is accepted to IROS 2024.
 
+
 {% include_relative _includes/publications.md %}
+
+{% include_relative _includes/ongoings.md %}
 
 {% include_relative _includes/services.md %}

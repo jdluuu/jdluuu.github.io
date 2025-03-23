@@ -1,33 +1,18 @@
 main:
 
-  - title: "CT-RIO: Non-Uniform B-spline based Continuous-Time Relative Inertial Odometry"
-    authors: <strong>Jiadong Lu†</strong>, Zhehan Li†, Tao Han, Chao Xu, Fei Gao, and Yanjun Cao
-    conference_short: RAL
-    conference: IEEE Robotics and Automation Letters <strong>(RAL)</strong>, 2025.
-    image: ./assets/img/teaser_example.png
-    notes: In Preparation
-
   - title: "Novel Design of Reconfigurable Tracked Robot with Geometry-Changing Tracks"
     authors: Chice Xuan†, <strong>Jiadong Lu†</strong>, Zhihao Tian, Jiacheng Li, Mengke Zhang, Hanbin Xie, Jianxiong Qiu, Chao Xu, and Yanjun Cao
     conference_short: IROS
     conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2024.
-    pdf: https://arxiv.org/pdf/2310.13324
-    code: https://github.com/FAST-FIRE/ColAG
-    page: https://fast-fire.github.io/ColAG/
-    bibtex: https://ieeexplore.ieee.org/abstract/document/10611264
-    image: ./assets/img/teaser_example.png
+    pdf: https://ieeexplore.ieee.org/abstract/document/10802301
+    page: https://fast-fire.github.io/CubeTrack/
+    bibtex: https://ieeexplore.ieee.org/abstract/document/10802301
+    image: ./assets/img/cubetrack.png
     notes: Oral Presentation
-
-  - title: "CREPES-Multi: A Robust Tightly-Coupled Bearing-Distance-Inertial Relative State Estimation System for Swarm Robots"
-    authors: Zhehan Li, Zheng Wang, <strong>Jiadong Lu</strong>, Zhiren Xun, Chao Xu, Fei Gao, and Yanjun Cao
-    conference_short: TRO
-    conference: IEEE Transactions on Robotics <strong>(TRO)</strong>, 2025.
-    image: ./assets/img/teaser_example.png
-    notes: In Preparation
     
-  - title: "Mr. Virgil: Learning Multi-robot Visual-range Relative Localization  "
+  - title: "Mr. Virgil: Learning Multi-robot Visual-range Relative Localization"
     authors: Si Wang, Zhehan Li, <strong>Jiadong Lu</strong>, Rong Xiong, Yanjun Cao, Yue Wang
     conference_short: IROS
     conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2025.
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/mrvirgil.png
     notes: Submitted
