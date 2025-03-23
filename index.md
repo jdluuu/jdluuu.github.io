@@ -25,6 +25,6 @@ My research interests include multi-robot collaboration and relative localizatio
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/ongoings.md %}
+<!-- {% include_relative _includes/ongoings.md %} -->
 
 {% include_relative _includes/services.md %}
