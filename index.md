@@ -19,7 +19,7 @@ My research interests include multi-robot collaboration and relative localizatio
 
 ## News
 
-- **[Jan. 2025]** Our paper about learning-based relative localization is accepted to IROS 2025.
+- **[Jan. 2025]** Our paper about learning-based relative localization is submitted to IROS 2025.
 - **[Jul. 2024]** Our paper about reconfigurable tracked robot is accepted to IROS 2024.
 
 
