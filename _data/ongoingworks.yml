@@ -1,9 +1,9 @@
 main:
 
-  - title: "CT-RIO: Non-Uniform B-spline based Continuous-Time Relative Inertial Odometry"
+  - title: "Continuous-Time Relative Inertial Odometry"
     authors: <strong>Jiadong Lu†</strong>, Zhehan Li†, Tao Han, Chao Xu, Fei Gao, and Yanjun Cao
-    conference_short: RAL
-    conference: IEEE Robotics and Automation Letters <strong>(RAL)</strong>, 2025.
+    conference_short: TMECH
+    conference: IEEE/ASME Transactions on Mechatronics <strong>(TMECH)</strong>, 2025.
     image: ./assets/img/teaser_example.png
     notes: In Preparation
 
