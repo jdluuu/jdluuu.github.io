@@ -10,9 +10,9 @@ main:
     image: ./assets/img/cubetrack.png
     notes: Oral Presentation
     
-  - title: "Mr. Virgil: Learning Multi-robot Visual-range Relative Localization"
-    authors: Si Wang, Zhehan Li, <strong>Jiadong Lu</strong>, Rong Xiong, Yanjun Cao, Yue Wang
-    conference_short: IROS
-    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2025.
-    image: ./assets/img/mrvirgil.png
-    notes: Submitted
+  # - title: "Mr. Virgil: Learning Multi-robot Visual-range Relative Localization"
+  #   authors: Si Wang, Zhehan Li, <strong>Jiadong Lu</strong>, Rong Xiong, Yanjun Cao, Yue Wang
+  #   conference_short: IROS
+  #   conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2025.
+  #   image: ./assets/img/mrvirgil.png
+  #   notes: Submitted
