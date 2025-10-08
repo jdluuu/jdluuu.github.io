@@ -18,9 +18,9 @@ My research interests include multi-robot collaboration and relative localizatio
 - **Mechanical design:** innovation structures, tracked robots, kinematics and dynamics analysis
 
 ## News
-
-- **[Jan. 2025]** Our paper about learning-based relative localization is submitted to IROS 2025.
-- **[Jul. 2024]** Our paper about reconfigurable tracked robot is accepted to IROS 2024.
+- **[Oct. 2025]** Our demonstration about air-ground cooperation is accpeted by IROS 2025 EXPO.
+- **[Jan. 2025]** Our paper about learning-based relative localization is accpeted by IROS 2025.
+- **[Jul. 2024]** Our paper about reconfigurable tracked robot is accepted by IROS 2024.
 
 
 {% include_relative _includes/publications.md %}
