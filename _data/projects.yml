@@ -1,0 +1,11 @@
+main:
+
+  - title: "Air-Ground Cooperation without Global Information: RoFly and CubeTrack Cooperation with CREPES and CoNi-MPC"
+    authors: <strong>Jiadong Lu</strong>,Jiajun Yu,Li Wang,Mingxuan Zhang,Pengxiang Zhou,Ruitian Pang,Xiangyu Li,Zhehan Li,Chao Xu,and Yanjun Cao
+    conference_short: IROS
+    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2025.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10802301
+    page: https://fast-fire.github.io/CubeTrack/
+    bibtex: https://ieeexplore.ieee.org/abstract/document/10802301
+    image: ./assets/img/cubetrack.png
+    notes: IROS2025 EXPO
