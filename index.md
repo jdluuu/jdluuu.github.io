@@ -13,7 +13,7 @@ I am deeply fascinated by robotics's future and committed to advancing research 
 ## Research Interests
 <!-- 
 My research interests include multi-robot collaboration and relative localization. I am also interested in mechanical design and reinforcement learning. In the area of multi-robot collaboration, I contributed to the development of a relative localization system, CREPES (with a related article submitted to IEEE TRO). In mechanical design, I participated in the development of a reconfigurable tracked robot, CubeTrack (with a related paper accepted as an oral presentation at IROS 2024). Previously, I served as a reviewer for ICRA and IROS conferences. -->
-- **Multi-Robot Perception:** multi-robot SLAM, relative state estimation, distributed algorithm, certifiable optimization, outlier rejection, consistent maps, continuous-time SLAM, active SLAM
+- **Multi-Robot Perception:** continuous-time SLAM, multi-robot SLAM, relative state estimation, distributed algorithm
 
 - **Mechanical design:** innovation structures, tracked robots, kinematics and dynamics analysis
 
