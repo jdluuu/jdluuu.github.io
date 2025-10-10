@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hi! I am currently pursuing a master's degree in the [FastLab](http://zju-fast.com/) (Fire Group) at the College of Control Science and Engineering, Zhejiang University, under the supervision of [Yanjun Cao](http://zju-fast.com/research-group/yanjun-cao/) and [Chao Xu](http://zju-fast.com/research-group/chao-xu/).
+Hi! I am currently pursuing a master's degree in the FastLab (Fire Group) at the College of Control Science and Engineering, Zhejiang University, under the supervision of [Yanjun Cao](https://scholar.google.com/citations?user=Q44CBbgAAAAJ&hl=zh-CN) and [Chao Xu](https://scholar.google.com/citations?user=IOCO-YQAAAAJ&hl=zh-CN).
 
 Previously, I obtained a bachelor's degree in Automation from Shandong University with the honor of Excellent graduation thesis (top 2%).
 
