@@ -3,13 +3,13 @@ main:
   - title: "Continuous-Time Relative Inertial Odometry with Enhanced Clamped Non-Unifrom B-spline"
     authors: <strong>Jiadong Lu†</strong>, Zhehan Li†, Tao Han, Chao Xu, Fei Gao, and Yanjun Cao
     conference_short: TASE
-    conference: IEEE/ASME Transactions on Automation Science and Engineering <strong>(TASE)</strong>.
+    conference: 18 pages long article.
     image: ./assets/img/teaser_example.png
     notes: In Preparation
 
   - title: "Hierarchical Cooperative Relative Localization via Closed-Form Solutions and Relative Kinematics"
     authors: Zhehan Li, Zheng Wang, <strong>Jiadong Lu</strong>, Zhiren Xun, Chao Xu, Fei Gao, and Yanjun Cao
     conference_short: TRO
-    conference: IEEE Transactions on Robotics <strong>(TRO)</strong>.
+    conference: 20 pages long article.
     image: ./assets/img/crepes-x.webp
-    notes: Submitted
+    notes: Under Review
