@@ -6,6 +6,8 @@ main:
     conference: 18 pages long article.
     image: ./assets/img/teaser_example.png
     notes: In Preparation
+    pdf: https://arxiv.org/abs/2602.22006
+
 
   - title: "Hierarchical Cooperative Relative Localization via Closed-Form Solutions and Relative Kinematics"
     authors: Zhehan Li, Zheng Wang, <strong>Jiadong Lu</strong>, Zhiren Xun, Chao Xu, Fei Gao, and Yanjun Cao
@@ -13,3 +15,4 @@ main:
     conference: 20 pages long article.
     image: ./assets/img/crepes-x.webp
     notes: Under Review
+    pdf: https://arxiv.org/abs/2512.24688
