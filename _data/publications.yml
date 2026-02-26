@@ -6,7 +6,6 @@ main:
     conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2024.
     pdf: https://ieeexplore.ieee.org/abstract/document/10802301
     page: https://fast-fire.github.io/CubeTrack/
-    bibtex: https://ieeexplore.ieee.org/abstract/document/10802301
     image: ./assets/img/cubetrack.png
     notes: Oral Presentation
     
@@ -16,3 +15,4 @@ main:
     conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2025.
     image: ./assets/img/mrvirgil.png
     notes: Oral Presentation
+    pdf: https://ieeexplore.ieee.org/abstract/document/11247592/
