@@ -7,6 +7,7 @@ main:
     image: ./assets/img/ctrio.png
     notes: Under Review
     pdf: https://arxiv.org/abs/2602.22006
+    code: https://github.com/FAST-FIRE/CT-RIO
 
   - title: "Hierarchical Cooperative Relative Localization via Closed-Form Solutions and Relative Kinematics"
     authors: Zhehan Li, Zheng Wang, <strong>Jiadong Lu</strong>, Zhiren Xun, Chao Xu, Fei Gao, and Yanjun Cao
@@ -15,3 +16,4 @@ main:
     image: ./assets/img/crepes-x.webp
     notes: Under Review
     pdf: https://arxiv.org/abs/2512.24688
+    code: https://github.com/FAST-FIRE/CREPES-X
