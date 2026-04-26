@@ -7,3 +7,13 @@ main:
     page: https://fast-fire.github.io/IROS2025-EXPO-DisplayPage/
     image: ./assets/img/IROS25_EXPO.png
     notes: IROS 2025 EXPO
+    details:
+      description: |
+        <p>这里写项目的详细介绍，可以使用 HTML 标签。</p>
+        <p>例如：本项目展示了空地协同系统在无全局定位信息下的实时协作能力，依赖 CREPES 和 CoNi-MPC 实现 RoFly 与 CubeTrack 的稳定跟随。</p>
+      images:
+        - url: ./assets/img/IROS25_EXPO.png
+          caption: IROS 2025 EXPO 现场展示
+      videos:
+        - url: https://www.youtube.com/embed/dQw4w9WgXcQ
+          caption: 演示视频（替换为真实链接）

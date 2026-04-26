@@ -1,5 +1,32 @@
 main:
 
+  - title: "Parallel Continuous-Time Relative Localization with Augmented Clamped Non-Uniform B-Splines"
+    authors: <strong>Jiadong Lu†</strong>, Zhehan Li†, Tao Han, Miao Xu, Chao Xu, and Yanjun Cao
+    conference_short: Arxiv
+    conference: Submitted to IEEE Transactions on Robotics <strong>(TRO)</strong>, 2026.
+    image: ./assets/img/ctrio.png
+    notes: Under Review
+    pdf: https://arxiv.org/abs/2602.22006
+    code: https://github.com/FAST-FIRE/CT-RIO
+
+  - title: "Hierarchical Cooperative Relative Localization via Closed-Form Solutions and Relative Kinematics"
+    authors: Zhehan Li, Zheng Wang†, <strong>Jiadong Lu†</strong>, Zhiren Xun, Chao Xu, Fei Gao, and Yanjun Cao
+    conference_short: Arxiv
+    conference: Submitted to IEEE Transactions on Robotics <strong>(TRO)</strong>, 2025.
+    image: ./assets/img/crepes-x.webp
+    notes: Under Review
+    pdf: https://arxiv.org/abs/2512.24688
+    code: https://github.com/FAST-FIRE/CREPES-X
+
+  - title: "Mr. Virgil: Learning Multi-robot Visual-range Relative Localization"
+    authors: Si Wang, Zhehan Li, <strong>Jiadong Lu</strong>, Rong Xiong, Yanjun Cao, Yue Wang
+    conference_short: IROS
+    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2025.
+    image: ./assets/img/mrvirgil.png
+    notes: Oral Presentation
+    pdf: https://ieeexplore.ieee.org/abstract/document/11247592/
+    code: https://github.com/HiOnes/Mr-Virgil
+
   - title: "Novel Design of Reconfigurable Tracked Robot with Geometry-Changing Tracks"
     authors: Chice Xuan†, <strong>Jiadong Lu†</strong>, Zhihao Tian, Jiacheng Li, Mengke Zhang, Hanbin Xie, Jianxiong Qiu, Chao Xu, and Yanjun Cao
     conference_short: IROS
@@ -8,11 +35,24 @@ main:
     page: https://fast-fire.github.io/CubeTrack/
     image: ./assets/img/cubetrack.png
     notes: Oral Presentation
-    
-  - title: "Mr. Virgil: Learning Multi-robot Visual-range Relative Localization"
-    authors: Si Wang, Zhehan Li, <strong>Jiadong Lu</strong>, Rong Xiong, Yanjun Cao, Yue Wang
-    conference_short: IROS
-    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2025.
-    image: ./assets/img/mrvirgil.png
-    notes: Oral Presentation
-    pdf: https://ieeexplore.ieee.org/abstract/document/11247592/
+    details:
+      description: |
+        <p>
+          This paper introdece <strong>CubeTrack</strong>. <strong>CubeTrack</strong> is a reconfigurable tracked robot with geometry-changing tracks, designed to achieve strong terrain traversability while maintaining a compact and mechanically efficient structure.
+        </p>
+
+        <p>
+          Its key innovation is a passive <strong>Quad-slider Elliptical Trammel Mechanism (Qs-ETM)</strong>,
+          which guides the planetary wheel along an elliptical trajectory and keeps the track tension nearly
+          constant during reconfiguration. Combined with an end-wheel-driven actuation scheme using
+          direct-drive motors, CubeTrack reduces the required flipper-driving torque by up to
+          <strong>68.3%</strong> and the flipper shear stress by up to <strong>67.1%</strong> compared with
+          conventional center-driven designs.
+        </p>
+
+        <p>
+          This was my first research project after joining my master’s laboratory. As a co-first author, I was responsible for the mechanical analysis of different structural designs, improving the reconfigurable tracked mechanism from mathematical modeling, and analyzing the robot’s kinematics and dynamics. This project gave me hands-on experience in mechanism design, force analysis, simulation validation, and real-world robotic system development.
+        </p>
+      videos:
+        - url: https://www.youtube.com/watch?v=a7m7eJwoMdY
+          caption: Demonstration Video.
