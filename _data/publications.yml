@@ -8,6 +8,51 @@ main:
     notes: Under Review
     pdf: https://arxiv.org/abs/2602.22006
     code: https://github.com/FAST-FIRE/CT-RIO
+    details:
+      description: |
+        <p>
+          <strong style="color: #e74d3c;">Continuous-time state estimation:</strong>
+            As robotic systems integrate more sensors operating at increasingly high frequencies,
+            conventional discrete-time estimators, which only estimate states at selected timestamps,
+            often require measurement interpolation or discard valuable observations.
+            Continuous-time trajectory representations address this limitation by allowing each
+            measurement to constrain the robot state directly at its native timestamp.
+        </p>
+
+        <p>
+          <strong style="color: #e74d3c;">This paper: </strong> We proposed CT-RIO, which is a continuous-time relative-inertial odometry framework
+          for direct relative localization in multi-robot systems.
+          In our setting, each robot receives inter-robot distance and bearing measurements from
+          UWB and cameras, while IMUs provide high-rate inertial measurements.
+          These measurements are naturally asynchronous, and independent robot clocks can introduce
+          inter-robot time offsets of hundreds of milliseconds.
+          By representing robot motion as continuous-time trajectories, CT-RIO can fuse these
+          asynchronous measurements directly and estimate time offsets using analytic time derivatives of B-splines.
+        </p>
+
+        <p>
+          The core of CT-RIO is an augmented
+          <strong>Clamped Non-Uniform B-spline (C-NUBS)</strong> representation.
+          C-NUBS eliminates the query-time delay of conventional unclamped B-splines and supports
+          closed-form, shape-preserving spline extension and shrinkage.
+          This enables a <strong>knot-keyknot strategy</strong>, where knots are extended at high
+          frequency while only sparse keyknots are retained for adaptive relative-motion modeling
+          and efficient optimization.
+        </p>
+
+        <p>
+          To scale to robot swarms, CT-RIO formulates a sliding-window relative localization problem
+          using only relative kinematics and inter-robot constraints.
+          The tightly coupled optimization is decomposed into robot-wise subproblems and solved in
+          parallel using incremental asynchronous block coordinate descent.
+          Experiments show that CT-RIO converges from time offsets as large as
+          <strong>263 ms</strong> to sub-millisecond accuracy within <strong>3 s</strong>,
+          achieves <strong>0.046 m</strong> and <strong>1.8°</strong> RMSE, and improves accuracy
+          by up to <strong>60%</strong> under high-speed motion.
+        </p>
+      videos:
+        - url: https://www.youtube.com/embed/_g-ERbOe8hA
+          caption: Demonstration Video.
 
   - title: "Hierarchical Cooperative Relative Localization via Closed-Form Solutions and Relative Kinematics"
     authors: Zhehan Li, Zheng Wang†, <strong>Jiadong Lu†</strong>, Zhiren Xun, Chao Xu, Fei Gao, and Yanjun Cao
@@ -17,6 +62,48 @@ main:
     notes: Under Review
     pdf: https://arxiv.org/abs/2512.24688
     code: https://github.com/FAST-FIRE/CREPES-X
+    details:
+      images_first: true
+      images: 
+        - url: ./assets/img/crepes-x.png
+      description: |
+        <p>
+          <strong>CREPES-X</strong> is a hierarchical cooperative relative localization system
+          for autonomous multi-robot systems.
+          It estimates relative poses directly from inter-robot observations, without relying on
+          global information, environmental features, or pre-installed infrastructure.
+          The system is designed to support robust cooperation in challenging scenarios with
+          outliers, non-line-of-sight observations, and non-inertial motion.
+        </p>
+
+        <p>
+          The hardware integrates complementary sensing modalities, including
+          <strong>IR LEDs</strong>, an <strong>IR camera</strong>, a <strong>UWB module</strong>,
+          and an <strong>IMU</strong>.
+          The LED-camera system provides bearing measurements with robot IDs, UWB provides
+          inter-robot distances, and IMUs provide inertial measurements.
+          Together, these measurements enable relative localization in a robocentric frame,
+          independent of external localization systems.
+        </p>
+
+        <p>
+          The estimation framework follows a two-stage hierarchical design.
+          A <strong>single-frame relative estimator</strong> first computes instant relative poses
+          using closed-form solutions and robust bearing outlier rejection.
+          A <strong>multi-frame relative estimator</strong> then refines the relative states over
+          a sliding window by exploiting IMU pre-integration and robocentric relative kinematics
+          through loosely- and tightly-coupled optimization.
+        </p>
+
+        <p>
+          Experiments show that CREPES-X remains robust under up to
+          <strong>90%</strong> bearing outliers and achieves real-world localization accuracy of
+          <strong>0.073 m</strong> and <strong>1.817°</strong>.
+          This project demonstrates how compact inter-robot sensing, closed-form geometric solvers,
+          and relative kinematic optimization can be combined to build a fast, accurate, and robust
+          relative localization system for robot swarms.
+        </p>
+      
 
   - title: "Mr. Virgil: Learning Multi-robot Visual-range Relative Localization"
     authors: Si Wang, Zhehan Li, <strong>Jiadong Lu</strong>, Rong Xiong, Yanjun Cao, Yue Wang
@@ -26,6 +113,36 @@ main:
     notes: Oral Presentation
     pdf: https://ieeexplore.ieee.org/abstract/document/11247592/
     code: https://github.com/HiOnes/Mr-Virgil
+    details:
+      images_first: true
+      images:
+        - url: ./assets/img/mrvirgil_big.png
+      description: |
+        <p>
+          <strong>Mr. Virgil</strong> is an end-to-end learning framework for multi-robot
+          visual-range relative localization.
+          It tackles the data association problem in UWB-vision fusion systems, where visual
+          detections of neighboring robots are anonymous and incorrect matches can seriously
+          degrade localization accuracy.
+        </p>
+
+        <p>
+          We use a <strong>graph neural network</strong> with differentiable Sinkhorn matching
+          to associate UWB-informed prior bearings with visual detections.
+          The network predicts both relative positions and uncertainty estimates, enabling
+          ambiguous observations to be treated as soft constraints rather than overconfident
+          hard matches.
+        </p>
+
+        <p>
+          The learned measurements are fused by a
+          <strong>differentiable pose graph optimization</strong> back-end and deployed in a
+          decentralized system.
+          Experiments show strong robustness to occlusion, false detections, varying robot
+          numbers, and sim-to-real transfer, achieving <strong>0.129 m</strong> RMSE in
+          real-world non-line-of-sight scenarios.
+        </p>
+
 
   - title: "Novel Design of Reconfigurable Tracked Robot with Geometry-Changing Tracks"
     authors: Chice Xuan†, <strong>Jiadong Lu†</strong>, Zhihao Tian, Jiacheng Li, Mengke Zhang, Hanbin Xie, Jianxiong Qiu, Chao Xu, and Yanjun Cao
@@ -54,5 +171,5 @@ main:
           This was my first research project after joining my master’s laboratory. As a co-first author, I was responsible for the mechanical analysis of different structural designs, improving the reconfigurable tracked mechanism from mathematical modeling, and analyzing the robot’s kinematics and dynamics. This project gave me hands-on experience in mechanism design, force analysis, simulation validation, and real-world robotic system development.
         </p>
       videos:
-        - url: https://www.youtube.com/watch?v=a7m7eJwoMdY
+        - url: https://www.youtube.com/embed/a7m7eJwoMdY
           caption: Demonstration Video.

@@ -30,15 +30,25 @@
       {% if link.details %}
       <template id="proj-{{ forloop.index }}-content">
         <h2 class="modal-title">{{ link.title }}</h2>
-        {% if link.details.description %}
-        <div class="modal-description">{{ link.details.description }}</div>
-        {% endif %}
+        {% if link.details.images_first %}
         {% for img in link.details.images %}
         <figure class="modal-figure">
           <img src="{{ img.url }}" alt="{{ img.caption }}">
           {% if img.caption %}<figcaption>{{ img.caption }}</figcaption>{% endif %}
         </figure>
         {% endfor %}
+        {% endif %}
+        {% if link.details.description %}
+        <div class="modal-description">{{ link.details.description }}</div>
+        {% endif %}
+        {% unless link.details.images_first %}
+        {% for img in link.details.images %}
+        <figure class="modal-figure">
+          <img src="{{ img.url }}" alt="{{ img.caption }}">
+          {% if img.caption %}<figcaption>{{ img.caption }}</figcaption>{% endif %}
+        </figure>
+        {% endfor %}
+        {% endunless %}
         {% for vid in link.details.videos %}
         <figure class="modal-figure">
           <iframe src="{{ vid.url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
