@@ -11,16 +11,7 @@ main:
     details:
       description: |
         <p>
-          <strong style="color: #e74d3c;">Continuous-time state estimation:</strong>
-            As robotic systems integrate more sensors operating at increasingly high frequencies,
-            conventional discrete-time estimators, which only estimate states at selected timestamps,
-            often require measurement interpolation or discard valuable observations.
-            Continuous-time trajectory representations address this limitation by allowing each
-            measurement to constrain the robot state directly at its native timestamp.
-        </p>
-
-        <p>
-          <strong style="color: #e74d3c;">This paper: </strong> We proposed CT-RIO, which is a continuous-time relative-inertial odometry framework
+          We proposed CT-RIO, which is a continuous-time relative-inertial odometry framework
           for direct relative localization in multi-robot systems.
           In our setting, each robot receives inter-robot distance and bearing measurements from
           UWB and cameras, while IMUs provide high-rate inertial measurements.
