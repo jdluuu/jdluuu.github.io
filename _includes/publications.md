@@ -1,4 +1,4 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 id="publications" style="margin: 2px 0px -15px;">Publications <span style="font-size: 14px; font-weight: 400; color: #888; font-style: italic;">(Click for a brief introduction)</span></h2>
 
 <div class="publications">
 <ol class="bibliography">
