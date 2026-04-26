@@ -149,7 +149,6 @@ main:
     conference_short: IROS
     conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2024.
     pdf: https://ieeexplore.ieee.org/abstract/document/10802301
-    page: https://fast-fire.github.io/CubeTrack/
     image: ./assets/img/cubetrack.png
     notes: Oral Presentation
     details:
