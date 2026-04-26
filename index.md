@@ -6,9 +6,9 @@ layout: homepage
 
 Hi! I am currently pursuing a master's degree in the FASTLab (Fire Group) at the College of Control Science and Engineering, Zhejiang University, under the supervision of [Yanjun Cao](https://scholar.google.com/citations?user=Q44CBbgAAAAJ&hl=zh-CN) and [Chao Xu](https://scholar.google.com/citations?user=IOCO-YQAAAAJ&hl=zh-CN).
 
-Previously, I obtained a bachelor's degree in Automation from Shandong University with the honor of Excellent graduation thesis (top 2%).
+Previously, I obtained a bachelor's degree in Automation from Shandong University with the honor of Excellent graduation thesis (top 2%). Currently, I’m preparing to apply for PhD research program.
 
-I am deeply fascinated by robotics's future and committed to advancing research in this field. If you're interested in discussing my work or potential collaborations, feel free to email me at jdlu@zju.edu.cn
+<!-- I am deeply fascinated by robotics's future and committed to advancing research in this field. If you're interested in discussing my work or potential collaborations, feel free to email me at jdlu@zju.edu.cn -->
 
 ## Research Interests
 <!-- 
@@ -16,6 +16,8 @@ My research interests include multi-robot collaboration and relative localizatio
 <!-- - **Multi-Robot Perception:** continuous-time SLAM, multi-robot SLAM, relative state estimation, distributed algorithm
 
 - **Mechanical design:** innovation structures, tracked robots, kinematics and dynamics analysis -->
+
+My research focuses on robotic perception, including ego-state estimation for individual robots and collaborative perception for multi-robot systems. I am particularly interested in developing accurate, real-time, and interpretable state estimation algorithms that enable robots to perceive themselves, localize their teammates, and operate robustly in complex real-world environments.
 
 - **Continuous-Time State Estimation:** real-time continuous-time SLAM, LiDAR-visual-inertial SLAM
 - **Multi-Robot Systems:** relative state estimation, distributed optimization, air-ground cooperation
