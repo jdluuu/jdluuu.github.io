@@ -17,21 +17,22 @@ My research interests include multi-robot collaboration and relative localizatio
 
 - **Mechanical design:** innovation structures, tracked robots, kinematics and dynamics analysis -->
 
-My research focuses on robotic perception, including ego-state estimation for individual robots and collaborative perception for multi-robot systems. I am particularly interested in developing accurate, real-time, and interpretable state estimation algorithms that enable robots to perceive themselves, localize their teammates, and operate robustly in complex real-world environments.
+My research focuses on robotic perception, including ego-state estimation for individual robots and collaborative perception for multi-robot systems. I am particularly interested in developing accurate and real-time state estimation algorithms that enable robots to perceive themselves, localize their teammates, and operate robustly in complex real-world environments.
 
-- **Continuous-Time State Estimation:** real-time continuous-time SLAM, LiDAR-visual-inertial SLAM
-- **Multi-Robot Systems:** relative state estimation, distributed optimization, air-ground cooperation
+<!-- - **Continuous-Time State Estimation:** real-time continuous-time SLAM, LiDAR-visual-inertial SLAM
+- **Multi-Robot Systems:** relative state estimation, distributed optimization, air-ground cooperation -->
 
 ## News
+- **[Feb. 2026]** Our paper about continuous-time multi-robot direct relative localization is submitted to IEEE TRO.
+- **[Dec. 2025]** Our paper about multi-robot direct relative localization is submitted to IEEE TRO.
 - **[Oct. 2025]** Our demonstration about air-ground cooperation is accpeted by IROS 2025 EXPO.
 - **[Jul. 2025]** Our paper about learning-based relative localization is accpeted by IROS 2025.
 - **[Jul. 2024]** Our paper about reconfigurable tracked robot is accepted by IROS 2024.
 
+{% include_relative _includes/ongoings.md %}
 
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/projects.md %}
-
-<!-- {% include_relative _includes/ongoings.md %} -->
 
 {% include_relative _includes/services.md %}

@@ -1,13 +1,15 @@
 main:
 
-  # - title: "Parallel Continuous-Time Relative Localization with Augmented Clamped Non-Uniform B-Splines"
-  #   authors: <strong>Jiadong Lu†</strong>, Zhehan Li†, Tao Han, Miao Xu, Chao Xu, and Yanjun Cao
-  #   conference_short: Arxiv
-  #   conference: Submitted to IEEE Transactions on Robotics <strong>(TRO)</strong>, 2026.
-  #   image: ./assets/img/ctrio.png
-  #   notes: Under Review
-  #   pdf: https://arxiv.org/abs/2602.22006
-  #   code: https://github.com/FAST-FIRE/CT-RIO
+  - title: "Clamped Non-Uniform B-Splines for Continuous-Time Odometry and Mapping"
+    authors: <strong>Jiadong Lu</strong>, Zhehan Li, Chao Xu, Jiajun Lv, Yanjun Cao.
+    conference_short: Demo
+    # conference: In preparation.
+    image: ./assets/img/clampslam.png
+    notes: In preparation.
+    details:
+      videos:
+        - url: https://www.youtube.com/embed/ZZV0Sa9SWys
+          caption: Demonstration Video.
 
   # - title: "Hierarchical Cooperative Relative Localization via Closed-Form Solutions and Relative Kinematics"
   #   authors: Zhehan Li, Zheng Wang†, <strong>Jiadong Lu†</strong>, Zhiren Xun, Chao Xu, Fei Gao, and Yanjun Cao
@@ -17,3 +19,4 @@ main:
   #   notes: Under Review
   #   pdf: https://arxiv.org/abs/2512.24688
   #   code: https://github.com/FAST-FIRE/CREPES-X
+ 

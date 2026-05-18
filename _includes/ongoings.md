@@ -1,6 +1,6 @@
 
 
-<h2 id="Ongoing" style="margin: 2px 0px -15px;">Ongoing Works</h2>
+<h2 id="Ongoing" style="margin: 30px 0px -15px;">Ongoing Works <span style="font-size: 14px; font-weight: 400; color: #888; font-style: italic;">(Click for micro demos)</span></h2>
 
 <div class="publications">
 <ol class="bibliography">
@@ -11,14 +11,54 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %}
+    {% if link.details %}
+    <a href="#" class="project-modal-trigger" data-project-id="ongoing-{{ forloop.index }}"><img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%"></a>
+    {% else %}
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    {% endif %}
     {% if link.conference_short %}
     <abbr class="badge">{{ link.conference_short }}</abbr>
     {% endif %}
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="title">
+        {% if link.details %}
+        <a href="#" class="project-modal-trigger" data-project-id="ongoing-{{ forloop.index }}">{{ link.title }}</a>
+        {% else %}
+        <a href="{{ link.pdf }}">{{ link.title }}</a>
+        {% endif %}
+      </div>
+      {% if link.details %}
+      <template id="ongoing-{{ forloop.index }}-content">
+        <h2 class="modal-title">{{ link.title }}</h2>
+        {% if link.details.images_first %}
+        {% for img in link.details.images %}
+        <figure class="modal-figure">
+          <img src="{{ img.url }}" alt="{{ img.caption }}">
+          {% if img.caption %}<figcaption>{{ img.caption }}</figcaption>{% endif %}
+        </figure>
+        {% endfor %}
+        {% endif %}
+        {% if link.details.description %}
+        <div class="modal-description">{{ link.details.description }}</div>
+        {% endif %}
+        {% unless link.details.images_first %}
+        {% for img in link.details.images %}
+        <figure class="modal-figure">
+          <img src="{{ img.url }}" alt="{{ img.caption }}">
+          {% if img.caption %}<figcaption>{{ img.caption }}</figcaption>{% endif %}
+        </figure>
+        {% endfor %}
+        {% endunless %}
+        {% for vid in link.details.videos %}
+        <figure class="modal-figure">
+          <iframe src="{{ vid.url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          {% if vid.caption %}<figcaption>{{ vid.caption }}</figcaption>{% endif %}
+        </figure>
+        {% endfor %}
+      </template>
+      {% endif %}
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
