@@ -46,7 +46,7 @@ main:
           caption: Demonstration Video.
 
   - title: "Hierarchical Cooperative Relative Localization via Closed-Form Solutions and Relative Kinematics"
-    authors: Zhehan Li, Zheng Wang†, <strong>Jiadong Lu†</strong>, Zhiren Xun, Chao Xu, Fei Gao, and Yanjun Cao
+    authors: Zhehan Li, <strong>Jiadong Lu†</strong>, Zheng Wang†, Zhiren Xun, Chao Xu, Fei Gao, and Yanjun Cao
     conference_short: Arxiv
     conference: Submitted to IEEE Transactions on Robotics <strong>(TRO)</strong>, 2025.
     image: ./assets/img/crepes-x.webp
