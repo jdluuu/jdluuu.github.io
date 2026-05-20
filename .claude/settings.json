@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Process -Id 14300)",
+      "PowerShell(Write-Output \"--- Gemfile ---\"; if \\(Test-Path Gemfile\\) { Get-Content Gemfile -TotalCount 10 } else { Write-Output \"\\(none\\)\" }; Write-Output \"--- _config.yml port ---\"; if \\(Test-Path _config.yml\\) { Select-String -Path _config.yml -Pattern \"^port|^host\" } else { Write-Output \"\\(no _config.yml\\)\" }; Write-Output \"--- ruby/bundle ---\"; \\(Get-Command ruby -ErrorAction SilentlyContinue\\).Source; \\(Get-Command bundle -ErrorAction SilentlyContinue\\).Source; \\(Get-Command jekyll -ErrorAction SilentlyContinue\\).Source)"
+    ]
+  }
+}
