@@ -8,6 +8,38 @@ Hi! I am currently pursuing a master's degree in the FASTLab (Fire Group) at the
 
 Previously, I obtained a bachelor's degree in Automation from Shandong University with the honor of Excellent graduation thesis (top 2%). Currently, I’m preparing to apply for PhD research program.
 
+<p class="phd-call">I'm looking for potential PhD position in Fall 2027. Please contact me if you see a potential fit!</p>
+
+<style>
+  .phd-call {
+    color: #d40000;
+    font-weight: 700;
+    font-size: 1.em;
+    text-align: center;
+    margin: 0.0em auto 1.0em;
+    display: inline-block;
+    width: 100%;
+    transition: color 0.2s ease;
+  }
+  .phd-call:hover {
+    animation: phd-call-shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes phd-call-shake {
+    0%   { transform: translate(1px, 1px) rotate(0deg); }
+    10%  { transform: translate(-1px, -2px) rotate(-1deg); }
+    20%  { transform: translate(-3px, 0px) rotate(1deg); }
+    30%  { transform: translate(3px, 2px) rotate(0deg); }
+    40%  { transform: translate(1px, -1px) rotate(1deg); }
+    50%  { transform: translate(-1px, 2px) rotate(-1deg); }
+    60%  { transform: translate(-3px, 1px) rotate(0deg); }
+    70%  { transform: translate(3px, 1px) rotate(-1deg); }
+    80%  { transform: translate(-1px, -1px) rotate(1deg); }
+    90%  { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+</style>
+
 <!-- I am deeply fascinated by robotics's future and committed to advancing research in this field. If you're interested in discussing my work or potential collaborations, feel free to email me at jdlu@zju.edu.cn -->
 
 ## Research Interests
