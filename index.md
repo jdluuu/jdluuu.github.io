@@ -6,7 +6,7 @@ layout: homepage
 
 Hi! I am currently pursuing a master's degree in the FASTLab (Fire Group) at the College of Control Science and Engineering, Zhejiang University, under the supervision of [Yanjun Cao](https://scholar.google.com/citations?user=Q44CBbgAAAAJ&hl=zh-CN) and [Chao Xu](https://scholar.google.com/citations?user=IOCO-YQAAAAJ&hl=zh-CN).
 
-Previously, I obtained a bachelor's degree in Automation from Shandong University with the honor of Excellent graduation thesis (top 2%). Currently, I’m preparing to apply for PhD research program.
+Previously, I obtained a bachelor's degree in Automation from Shandong University with the honor of Excellent graduation thesis (top 2%). 
 
 <p class="phd-call">I'm looking for potential PhD position in Fall 2027. Please contact me if you see a potential fit!</p>
 
