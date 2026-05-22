@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(netstat -ano)",
+      "Bash(findstr \":2344 :4000 :4001 :4002\")",
+      "Bash(tasklist)",
+      "Bash(findstr /I \"ruby jekyll\")",
+      "Bash(tasklist /FI \"PID eq 14300\")"
+    ]
+  }
+}
