@@ -8,7 +8,7 @@ Hi! I am currently pursuing a master's degree in the FASTLab (Fire Group) at the
 
 Previously, I obtained a bachelor's degree in Automation from Shandong University with the honor of Excellent graduation thesis (top 2%). 
 
-<p class="phd-call">I'm looking for potential PhD position in Fall 2027. Please contact me if you see a potential fit!</p>
+<p class="phd-call">I'm looking for a potential PhD position in Fall 2027. Please contact me if you see a potential fit!</p>
 
 <style>
   .phd-call {
