@@ -5,7 +5,7 @@ main:
     conference_short: Arxiv
     conference: Submitted to IEEE Transactions on Robotics <strong>(TRO)</strong>, 2026.
     image: ./assets/img/ctrio.png
-    notes: Under Review
+    notes: Under Second-Round Review
     pdf: https://arxiv.org/abs/2602.22006
     code: https://github.com/FAST-FIRE/CT-RIO
     details:
@@ -50,7 +50,7 @@ main:
     conference_short: Arxiv
     conference: Submitted to IEEE Transactions on Robotics <strong>(TRO)</strong>, 2025.
     image: ./assets/img/crepes-x.webp
-    notes: Under Review
+    notes: Under Second-Round Review
     pdf: https://arxiv.org/abs/2512.24688
     code: https://github.com/FAST-FIRE/CREPES-X
     details:
