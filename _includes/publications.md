@@ -10,7 +10,11 @@
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %}
     {% if link.details %}
-    <a href="#" class="project-modal-trigger" data-project-id="pub-{{ forloop.index }}"><img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%"></a>
+    <a href="#" class="project-modal-trigger" data-project-id="pub-{{ forloop.index }}"
+      data-umami-event="project-detail-open"
+      data-umami-event-project="{{ link.title | strip_html | escape }}"
+      data-umami-event-project-id="pub-{{ forloop.index }}"
+      data-umami-event-section="publication"><img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%"></a>
     {% else %}
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
     {% endif %}
@@ -22,7 +26,11 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title">
         {% if link.details %}
-        <a href="#" class="project-modal-trigger" data-project-id="pub-{{ forloop.index }}">{{ link.title }}</a>
+        <a href="#" class="project-modal-trigger" data-project-id="pub-{{ forloop.index }}"
+          data-umami-event="project-detail-open"
+          data-umami-event-project="{{ link.title | strip_html | escape }}"
+          data-umami-event-project-id="pub-{{ forloop.index }}"
+          data-umami-event-section="publication">{{ link.title }}</a>
         {% else %}
         <a href="{{ link.pdf }}">{{ link.title }}</a>
         {% endif %}
