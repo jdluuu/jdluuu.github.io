@@ -54,9 +54,9 @@ main:
     pdf: https://arxiv.org/abs/2512.24688
     code: https://github.com/FAST-FIRE/CREPES-X
     details:
-      images_first: true
-      images: 
-        - url: ./assets/img/crepes-x.png
+      # images_first: true
+      # images: 
+      #   - url: ./assets/img/crepes-x.png
       description: |
         <p>
           <strong>CREPES-X</strong> is a hierarchical cooperative relative localization system
@@ -94,7 +94,10 @@ main:
           and relative kinematic optimization can be combined to build a fast, accurate, and robust
           relative localization system for robot swarms.
         </p>
-      
+      videos:
+        - url: ./assets/img/crepesx_full_video.mp4
+          type: video/mp4
+          caption: Demonstration Video.
 
   - title: "Mr. Virgil: Learning Multi-robot Visual-range Relative Localization"
     authors: Si Wang, Zhehan Li, <strong>Jiadong Lu</strong>, Rong Xiong, Yanjun Cao, Yue Wang

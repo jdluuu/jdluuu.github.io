@@ -59,7 +59,14 @@
         {% endunless %}
         {% for vid in link.details.videos %}
         <figure class="modal-figure">
+          {% if vid.type == "video/mp4" %}
+          <video controls preload="metadata">
+            <source src="{{ vid.url }}" type="{{ vid.type }}">
+            Your browser does not support the video tag.
+          </video>
+          {% else %}
           <iframe src="{{ vid.url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          {% endif %}
           {% if vid.caption %}<figcaption>{{ vid.caption }}</figcaption>{% endif %}
         </figure>
         {% endfor %}
