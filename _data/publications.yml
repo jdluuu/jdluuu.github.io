@@ -1,10 +1,10 @@
 main:
 
-  - title: "Parallel Continuous-Time Relative Localization with Augmented Clamped Non-Uniform B-Splines"
-    authors: <strong>Jiadong Lu†</strong>, Zhehan Li†, Tao Han, Miao Xu, Chao Xu, and Yanjun Cao
+  - title: "Parallel Reference-Centric Continuous-Time Relative Localization with Augmented Clamped Non-Uniform B-Splines"
+    authors: <strong>Jiadong Lu†</strong>, Zhehan Li†, Tao Han, Miao Xu, Jiajun Lv, Chao Xu, and Yanjun Cao
     conference_short: Arxiv
     conference: Submitted to IEEE Transactions on Robotics <strong>(TRO)</strong>, 2026.
-    image: ./assets/img/ctrio.png
+    image: ./assets/img/ctrio.gif
     notes: Under Second-Round Review
     pdf: https://arxiv.org/abs/2602.22006
     code: https://github.com/FAST-FIRE/CT-RIO
