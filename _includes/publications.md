@@ -9,14 +9,29 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %}
+    {% capture teaser %}
+    {% if link.image_viewbox %}
+    {% assign crop = link.image_viewbox | split: ' ' %}
+    <svg class="teaser teaser-crop img-fluid z-depth-1" viewBox="{{ link.image_viewbox }}" role="img" aria-label="{{ link.title | strip_html | escape }}">
+      <defs>
+        <clipPath id="pub-teaser-crop-{{ forloop.index }}">
+          <rect x="{{ crop[0] }}" y="{{ crop[1] }}" width="{{ crop[2] }}" height="{{ crop[3] }}" />
+        </clipPath>
+      </defs>
+      <image href="{{ link.image }}" width="{{ link.image_width }}" height="{{ link.image_height }}" clip-path="url(#pub-teaser-crop-{{ forloop.index }})" />
+    </svg>
+    {% else %}
+    <img src="{{ link.image }}" alt="{{ link.title | strip_html | escape }}" class="teaser{% if link.image_fit == 'contain' %} teaser-contain{% endif %} img-fluid z-depth-1">
+    {% endif %}
+    {% endcapture %}
     {% if link.details %}
     <a href="#" class="project-modal-trigger" data-project-id="pub-{{ forloop.index }}"
       data-umami-event="project-detail-open"
       data-umami-event-project="{{ link.title | strip_html | escape }}"
       data-umami-event-project-id="pub-{{ forloop.index }}"
-      data-umami-event-section="publication"><img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%"></a>
+      data-umami-event-section="publication">{{ teaser }}</a>
     {% else %}
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    {{ teaser }}
     {% endif %}
     {% if link.conference_short %}
     <abbr class="badge">{{ link.conference_short }}</abbr>

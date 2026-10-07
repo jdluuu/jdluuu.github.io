@@ -1,3 +1,7 @@
+html {
+  scrollbar-gutter: stable;
+}
+
 .pub-row {
   display: flex; 
   align-items: center;}
@@ -233,6 +237,7 @@ a:hover small {
 }
 
 .wrapper {
+  display: flow-root;
   width:960px;
   margin:0 auto;
 }

@@ -41,7 +41,7 @@ Previously, I obtained a bachelor's degree in Automation from Shandong Universit
 </style>
 
 <!-- I am deeply fascinated by robotics's future and committed to advancing research in this field. If you're interested in discussing my work or potential collaborations, feel free to email me at jdlu@zju.edu.cn -->
-
+ 
 ## Research Interests
 <!-- 
 My research interests include multi-robot collaboration and relative localization. I am also interested in mechanical design and reinforcement learning. In the area of multi-robot collaboration, I contributed to the development of a relative localization system, CREPES (with a related article submitted to IEEE TRO). In mechanical design, I participated in the development of a reconfigurable tracked robot, CubeTrack (with a related paper accepted as an oral presentation at IROS 2024). Previously, I served as a reviewer for ICRA and IROS conferences. -->
@@ -55,8 +55,9 @@ My research focuses on robotic perception, including ego-state estimation for in
 - **Multi-Robot Systems:** relative state estimation, distributed optimization, air-ground cooperation -->
 
 ## News
+- **[Sep. 2026]** Our paper about neural streaming multi-robot relative localization is submitted to ICRA 2027.
+- **[Oct. 2026]** CREPES-X is conditionally accepted by IEEE TRO.
 - **[Feb. 2026]** Our paper about continuous-time multi-robot direct relative localization is submitted to IEEE TRO.
-- **[Dec. 2025]** Our paper about multi-robot direct relative localization is submitted to IEEE TRO.
 - **[Oct. 2025]** Our demonstration about air-ground cooperation is accpeted by IROS 2025 EXPO.
 - **[Jul. 2025]** Our paper about learning-based relative localization is accpeted by IROS 2025.
 - **[Jul. 2024]** Our paper about reconfigurable tracked robot is accepted by IROS 2024.
