@@ -32,6 +32,11 @@ enable_footnote: true
 # You may use the option to disable the automatic dark theme
 auto_dark_mode: true
 
+# Keep @import for GitHub Pages' Ruby Sass; silence only its local Dart Sass warning.
+sass:
+  silence_deprecations:
+    - import
+
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
 font: "Serif" # or "Sans Serif"
